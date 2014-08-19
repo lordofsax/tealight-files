@@ -14,7 +14,7 @@ def Movement():
   
  SpaceFound = 0
   
- WallPresence = touch() 
+ 
 
  while (SpaceFound == 0):
 
@@ -24,11 +24,13 @@ def Movement():
    move()
    Movement()    
     
-  elif left_side != 'wall' and WallPresence == 'wall':
-   SpaceFound = 1
-   turn(-1)
-   move()
-   Movement()
+  elif left_side != 'wall':
+   WallPresence = touch()
+   if WallPresence == 'wall' 
+    SpaceFound = 1
+    turn(-1)
+    move()
+    Movement()
     
   move()  
    
