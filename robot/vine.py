@@ -18,4 +18,4 @@ def Movement():
   turn(-1)
   Movement()
   
-#Movement()
+Movement()
