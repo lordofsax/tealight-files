@@ -26,7 +26,7 @@ def Movement():
     
   elif left_side != 'wall':
    WallPresence = touch()
-   if WallPresence == 'wall' 
+   if WallPresence == 'wall': 
     SpaceFound = 1
     turn(-1)
     move()
