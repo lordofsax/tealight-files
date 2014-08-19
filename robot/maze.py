@@ -8,5 +8,5 @@ from tealight.robot import (move,
 
 # Add your code here
 WallFound = 0
-if Wallfound = 0
+if Wallfound = 0:
  move()
