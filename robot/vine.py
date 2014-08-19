@@ -11,5 +11,5 @@ def Movement():
 
  FruitPresence = touch()
   
-  If FruitPresence == 'fruit':
+  if FruitPresence == 'fruit':
    move()
