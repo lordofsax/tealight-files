@@ -12,7 +12,8 @@ def Movement():
  FruitPresence = touch()
   
  while (FruitPresence == 'fruit'):
-  move() 
+  move()
+  FruitPresence = touch()
  
   
 Movement()
