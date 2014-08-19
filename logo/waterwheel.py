@@ -15,4 +15,4 @@ def waterwheel(edges, size):  #side = sidelength
     turn(angle)
 
 turn(-90)      #affects starting pitch of "turtle"
-waterwheel(15,75)
+waterwheel(100,75)
