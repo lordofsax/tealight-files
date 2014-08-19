@@ -11,7 +11,10 @@ from tealight.robot import (move,
 
 
 def Movement():
+  
  SpaceFound = 0
+  
+ WallPresence = touch() 
 
  while (SpaceFound == 0):
   move()
@@ -19,8 +22,8 @@ def Movement():
    SpaceFound = 1
    turn(1)
    Movement()
-  elif left_side != 'wall':
+  elif left_side != 'wall' and WallPresence == 'wall' :
    SpaceFound = 1
    turn(-1)
-   #Movement()
+   Movement()
 Movement()
