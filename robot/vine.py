@@ -10,7 +10,7 @@ from tealight.robot import (move,
 def Movement():
 
  FruitPresence = touch()
-  
- print FruitPresence
+ move() 
+ 
   
 Movement()
