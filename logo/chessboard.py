@@ -9,7 +9,8 @@ def chessboard(size):
     turn(90)
     
    move(size)
-  move(size*4) 
+  move(size*4)
+  turn(90)
   
 turn(-90)  
 chessboard(24)
