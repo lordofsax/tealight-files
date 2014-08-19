@@ -17,14 +17,17 @@ def Movement():
  WallPresence = touch() 
 
  while (SpaceFound == 0):
-  move()
+
   if right_side() != 'wall':
    SpaceFound = 1
    turn(1)
    Movement()
+    
   elif left_side != 'wall' and WallPresence == 'wall' :
    SpaceFound = 1
-   print WallPresence
    turn(-1)
    Movement()
+    
+  move()  
+   
 Movement()
