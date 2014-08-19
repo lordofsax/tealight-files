@@ -4,4 +4,4 @@ def chessboard(size):
   move(size)
   
   
-chessboard(5)
+chessboard(15)
