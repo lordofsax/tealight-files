@@ -7,7 +7,7 @@ def chessboard(size):
    move(size)
    turn(90)    
   move(size)
-  if (i=8)
+  if i=8:
    turn(90)
   
 turn(-90)  
