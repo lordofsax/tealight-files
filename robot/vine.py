@@ -12,3 +12,5 @@ def Movement():
  FruitPresence = touch()
   
  print FruitPresence
+  
+Movement()
