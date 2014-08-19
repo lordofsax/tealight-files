@@ -5,7 +5,7 @@ def chessboard(size):
   move(size)
   turn(90)
   
- for i in range(0,20):
+ for i in range(0,200):
    size = size * 7/8
    for i in range(0,3): 
     move(size)
