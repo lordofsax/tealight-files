@@ -11,4 +11,4 @@ def Movement():
 
  FruitPresence = touch()
   
- str(FruitPresence)
+ 
