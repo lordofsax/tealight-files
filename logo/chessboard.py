@@ -12,4 +12,4 @@ def chessboard(size):
   move(size)
   
 turn(-90)  
-chessboard(24)
+chessboard(4)
