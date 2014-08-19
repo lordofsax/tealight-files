@@ -13,3 +13,4 @@ while (SpaceFound == 0):
  move()
  if right_side() != 'wall':
   SpaceFound = 1
+  turn(1)
