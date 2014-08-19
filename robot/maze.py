@@ -20,7 +20,7 @@ def Movement():
 
   if left_side() != 'wall':
    SpaceFound = 1
-   turn(1)
+   turn(-1)
    move()
    Movement()    
     
@@ -28,7 +28,7 @@ def Movement():
    WallPresence = touch()
    if WallPresence == 'wall': 
     SpaceFound = 1
-    turn(-1)
+    turn(1)
     move()
     Movement()
     
