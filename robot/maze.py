@@ -17,5 +17,8 @@ def Movement():
    SpaceFound = 1
    turn(1)
    Movement()
-    
+  else if left_side != 'wall':
+   SpaceFound = 1
+   turn(-1)
+   Movement()
 Movement()
