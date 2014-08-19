@@ -1,16 +1,16 @@
 from tealight.logo import move, turn
 
-def chessboard(size):
+def chessboard(sizeT):
  for i in range(0,4):
-  move(size)
+  move(sizeT)
   turn(90)
   
- size = size * 7/8 
+ size = sizeT * 7/8 
  for i in range(0,3): 
   move(size)
   turn(90)
   
- size = size * 6/8 
+ size = sizeT * 6/8 
  for i in range(0,3): 
   move(size)
   turn(90) 
