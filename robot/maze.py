@@ -11,5 +11,5 @@ SpaceFound = 0
 
 while (SpaceFound == 0):
  move()
- if right_side() != 'wall'
+ if right_side() != 'wall':
   SpaceFound = 1
