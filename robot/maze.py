@@ -8,4 +8,4 @@ from tealight.robot import (move,
 
 # Add your code here
 count = smell()
-count
+print count
