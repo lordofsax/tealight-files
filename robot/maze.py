@@ -17,3 +17,5 @@ def Movement():
    SpaceFound = 1
    turn(1)
    Movement()
+    
+Movement()
