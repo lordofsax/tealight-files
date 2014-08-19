@@ -8,11 +8,12 @@ from tealight.robot import (move,
 
 # Add your code here
 
-def Movement()
-SpaceFound = 0
+def Movement():
+ SpaceFound = 0
 
-while (SpaceFound == 0):
- move()
- if right_side() != 'wall':
-  SpaceFound = 1
-  turn(1)
+ while (SpaceFound == 0):
+  move()
+  if right_side() != 'wall':
+   SpaceFound = 1
+   turn(1)
+   Movement()
