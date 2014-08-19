@@ -9,5 +9,5 @@ from tealight.robot import (move,
 # Add your code here
 WallFound = false
 
-While WallFound == false:
+While (WallFound == false):
  move()
