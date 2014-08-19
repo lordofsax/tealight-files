@@ -16,5 +16,6 @@ def Movement():
   FruitPresence = touch()
  if FruitPresence != 'fruit':
   turn(-1)
+  Movement()
   
 Movement()
