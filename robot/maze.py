@@ -8,6 +8,8 @@ from tealight.robot import (move,
 
 # Add your code here
 
+
+
 def Movement():
  SpaceFound = 0
 
@@ -20,5 +22,5 @@ def Movement():
   elif left_side != 'wall':
    SpaceFound = 1
    turn(-1)
-   Movement()
+   #Movement()
 Movement()
