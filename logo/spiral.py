@@ -9,4 +9,4 @@ def spiral(size):  #function with var size
   turn(0.1)         #rotate
   spiral(size + 5) #increase size by 5
   
-spiral(5)          #call spiral with size = 0
+spiral(0)          #call spiral with size = 0
