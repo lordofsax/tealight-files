@@ -21,13 +21,13 @@ def Movement():
   if right_side() != 'wall':
    SpaceFound = 1
    turn(1)
-   #move()
+   move()
    Movement()    
     
   elif left_side != 'wall' and WallPresence == 'wall' :
    SpaceFound = 1
    turn(-1)
-   #move()
+   move()
    Movement()
     
   move()  
