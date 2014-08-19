@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-def Movement
+def Movement:
 
  FruitPresence = touch()
   
