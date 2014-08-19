@@ -24,7 +24,7 @@ def Movement():
    move()
    Movement()    
     
-  elif left_side != 'wall' and WallPresence == 'wall' :
+  elif left_side != 'wall' and WallPresence == 'wall':
    SpaceFound = 1
    turn(-1)
    move()
