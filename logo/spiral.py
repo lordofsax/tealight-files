@@ -7,6 +7,6 @@ def spiral(size):  #function with var size
   
   move(size)       #move  size pixels
   turn(90)         #rotate
-  spiral(size + 5) #increase size by 5
+  spiral(size * 0.5) #increase size by 5
   
 spiral(0)          #call spiral with size = 0
