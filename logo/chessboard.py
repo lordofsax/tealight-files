@@ -6,4 +6,4 @@ def chessboard(size):
   turn(90)
   
 turn(-90)  
-chessboard(200)
+chessboard(240)
