@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-WallFound = false
+WallFound = 0
 
-While (WallFound == false):
+While (WallFound = 0):
  move()
