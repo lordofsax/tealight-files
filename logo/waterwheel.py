@@ -6,13 +6,13 @@ def square(side):
     move(side)
     turn(90)
 
-def waterwheel(edges, size):
-  angle = 360 / edges
+def waterwheel(edges, size):  #side = sidelength
+  angle = 360 / edges      #finds angle between each edge
   decoration = size / 2
   for i in range(0, edges):
     move(size)
     square(decoration)
     turn(angle)
 
-turn(-90)
-waterwheel(12,75)
+turn(-90)      #affects starting pitch of "turtle"
+waterwheel(15,75)
