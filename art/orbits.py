@@ -46,5 +46,5 @@ def handle_frame():
   
   spot(x,y,8)
   
-  ay = 0.1
+  ay = 0.01
   
