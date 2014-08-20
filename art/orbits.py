@@ -44,7 +44,7 @@ def handle_frame():
   else:
    vx = vx + ax
   
-  vy = vy + ay #+ 0.05
+  vy = vy + ay + 0.05
   
   x = x + vx
   y = y + vy
