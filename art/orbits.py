@@ -37,11 +37,11 @@ def handle_frame():
   
   spot(x,y,8)
   
-  if vx > 0
+  if vx > 0:
   vx = vx + ax - 0.05
-  elif vx< 0
+  elif vx< 0:
   vx = vx + ax - 0.05
-  else
+  else:
   vx = vx + ax
   
   vy = vy + ay #+ 0.05
