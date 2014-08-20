@@ -21,7 +21,7 @@ def handle_mousemove(x,y,button):
     
   if button == "right":
     line(lastx, lasty, x, y)
-    color(hsl)
+    color("hsl(50%,100%%,50%%)")
     lastx = x
     lasty = y
   
