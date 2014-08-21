@@ -4,7 +4,7 @@ from tealight.art import (screen_width, screen_height)
 
 
 
-def animals:
+def animals():
 
   image(100,100, "animals/Bear.png")
   image(200,100, "animals/Bear.png")
