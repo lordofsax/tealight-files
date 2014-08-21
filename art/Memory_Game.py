@@ -17,4 +17,5 @@ image(200,400, "animals/Elephant.png")
 image(100,500, "animals/Frog.png")
 image(200,500, "animals/Frog.png")
 
-image
+image(100,600, "animals/Horse.png")
+image(200,600, "animals/Horse.png")
