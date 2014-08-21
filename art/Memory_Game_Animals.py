@@ -12,7 +12,7 @@ x = [2,5]
 #print x.index
 #print x[0]
 
-for i in reversed(x):
+for i in reversed([2,5]):
   print i
 
 
