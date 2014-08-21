@@ -12,7 +12,7 @@ score = 0
 
   #global cards_clicked
   
-  first_card = None
+  first_card = "none"
 
   if cards_clicked < 2:
   
