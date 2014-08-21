@@ -19,10 +19,12 @@ animal_array = ["animals/Bear.png", "animals/Elephant.png", "animals/Lion.png"]
   
 def place_animals():
   
-  x = 100
-  y = 100
+  
   
   for i in animals_array[::-1]:
+    
+    x = 100
+    y = 100
     
     image(x, y, i)
     
