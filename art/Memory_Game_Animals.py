@@ -3,7 +3,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from tealight.art import (screen_width, screen_height)
 
 
-x = [2,7,5]
+x = ["dog",7,5]
 #print x.index
 #print x[0]
 #value = x[0]
