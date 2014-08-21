@@ -10,9 +10,11 @@ print value
 x.remove(value)
 print x.index
 
+ans = "animals/Bear.png"
+
 def animals():
 
-  image(100,100, "animals/Bear.png")
+  image(100,100, ans)
   image(200,100, "animals/Bear.png")
 
   image(100,200, "animals/Cat.png")
