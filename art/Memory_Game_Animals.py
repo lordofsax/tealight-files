@@ -7,7 +7,7 @@ x = [2,5]
 print x[1]
 value = x[1]
 print value
-x.remove[1]
+x.remove[value]
 
 def animals():
 
