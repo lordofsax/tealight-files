@@ -32,7 +32,7 @@ def place_animals():
     
       x = x + 100
     
-    else
+    else:
     
       x = 100
     
