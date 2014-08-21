@@ -12,7 +12,7 @@ x = [2,5]
 #print x.index
 #print x[0]
 
-start = x.index - 1
+x[::-1]
 for i in range(start,0):
   print x[i]
 
