@@ -20,8 +20,8 @@ image(200,500, "animals/Frog.png")
 image(100,600, "animals/Horse.png")
 image(200,600, "animals/Horse.png")
 
-image(100,700, "animals/Frog.png")
-image(200,700, "animals/Frog.png")
+image(100,700, "animals/Ladybird.png")
+image(200,700, "animals/Ladybird.png")
 
-image(100,800, "animals/Horse.png")
-image(200,800, "animals/Horse.png")
+image(100,800, "animals/Lion.png")
+image(200,800, "animals/Lion.png")
