@@ -49,3 +49,27 @@ image(400,700, "animals/Swan.png")
 
 image(300,800, "animals/Tiger.png")
 image(400,800, "animals/Tiger.png")
+
+image(500,100, "animals/Ant.png")
+image(600,100, "animals/Ant.png")
+
+image(500,200, "animals/Butterfly.png")
+image(600,200, "animals/Butterfly.png")
+
+image(500,300, "animals/Diplodocus.png")
+image(600,300, "animals/Diplodocus.png")
+
+image(500,400, "animals/Dolphin.png")
+image(600,400, "animals/Dolphin.png")
+
+image(500,500, "animals/Fish1.png")
+image(600,500, "animals/Fish1.png")
+
+image(500,600, "animals/Stegosaurus.png")
+image(600,600, "animals/Stegosaurus.png")
+
+image(500,700, "animals/Fish2.png")
+image(600,700, "animals/Fish2.png")
+
+image(500,800, "animals/Pterodactyl.png")
+image(600,800, "animals/Pterodactyl.png")
