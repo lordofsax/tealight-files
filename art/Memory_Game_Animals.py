@@ -14,6 +14,29 @@ x = ["dog",7,5]
 
 for i in x[::-1]:
   print i
+  
+animal_array = ["animals/Bear.png", "animals/Elephant.png", "animals/Lion.png"] 
+  
+def place_animals():
+  
+  x = 100
+  y = 100
+  
+  for i in animals_array[::-1]:
+    
+    image(x, y, i)
+    
+    if x < 600:
+    
+    x = x + 100
+    
+    else
+    
+    x = 100
+    
+    y = y + 100
+  
+  
 
 def animals():
 
@@ -90,4 +113,6 @@ def animals():
   image(600,800, "animals/Pterodactyl.png")
 
   
-animals()
+#animals()
+
+place_animals()
