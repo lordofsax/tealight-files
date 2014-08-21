@@ -5,10 +5,12 @@ from tealight.art import (screen_width, screen_height)
 
 x = [2,5]
 print x.index
+print x[0]
 value = x[0]
 print value
 x.remove(value)
 print x.index
+print x[0]
 
 
 def animals():
