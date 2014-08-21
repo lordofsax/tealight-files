@@ -13,7 +13,7 @@ x = [2,5]
 #print x[0]
 
 for i in x:
-  print x[i]
+  print i
 
 def animals():
 
