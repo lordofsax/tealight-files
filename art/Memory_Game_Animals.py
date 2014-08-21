@@ -5,16 +5,15 @@ from tealight.art import (screen_width, screen_height)
 
 x = [2,5]
 print x.index
-value = x[1]
+value = x[0]
 print value
 x.remove(value)
 print x.index
 
-ans = "animals/Bear.png"
 
 def animals():
 
-  image(100,100, ans)
+  image(100,100, "animals/Bear.png")
   image(200,100, "animals/Bear.png")
 
   image(100,200, "animals/Cat.png")
