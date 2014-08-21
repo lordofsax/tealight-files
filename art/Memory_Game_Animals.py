@@ -2,9 +2,9 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from tealight.art import (screen_width, screen_height)
 
-x = [2,5]
 
-print x[0]
+x = [2,5]
+print x[1]
 
 def animals():
 
@@ -81,4 +81,4 @@ def animals():
   image(600,800, "animals/Pterodactyl.png")
 
   
-#animals()
+animals()
