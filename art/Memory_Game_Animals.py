@@ -12,7 +12,7 @@ x = [2,7,5]
 #print x.index
 #print x[0]
 
-for i in x[::-1]
+for i in x[::-1]:
   print i
 
 def animals():
