@@ -30,13 +30,13 @@ def place_animals():
     
     if x < 600:
     
-    x = x + 100
+      x = x + 100
     
     else
     
-    x = 100
+      x = 100
     
-    y = y + 100
+      y = y + 100
   
   
 
