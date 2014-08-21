@@ -10,11 +10,11 @@ score = 0
 
 #when a card has been clicked
 
-global cards_clicked
+  global cards_clicked
   
-first_card = None
+  first_card = None
 
-if cards_clicked < 2:
+  if cards_clicked < 2:
   
     cards_clicked = cards_clicked + 1
     
