@@ -15,7 +15,7 @@ x = ["dog",7,5]
 for i in x[::-1]:
   print i
   
-animal_array = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/Cat.png", "animals/Elephant.png", "animals/Lion.png"] 
+animal_array = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "animals/Cat.png", "animals/Dog.png", "animals/Dog.png", "animals/Elephant.png", "animals/Elephant.png", "animals/Frog.png", "animals/Frog.png", "animals/Horse.png", "animals/Horse.png", "animals/Ladybird.png", "animals/Ladybird.png", "animals/Lion.png", "animals/Lion.png",] 
   
 def place_animals():
   
