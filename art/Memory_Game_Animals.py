@@ -77,3 +77,6 @@ def animals():
 
   image(500,800, "animals/Pterodactyl.png")
   image(600,800, "animals/Pterodactyl.png")
+
+  
+animals()
