@@ -12,8 +12,8 @@ x = [2,5]
 #print x.index
 #print x[0]
 
-for i in x.reversed():
-  print i
+for i in range(x.index-1,0):
+  print x[i]
 
 def animals():
 
