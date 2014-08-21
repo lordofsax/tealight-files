@@ -10,7 +10,7 @@ animal_array = ["animals/Bear.png", "animals/Bear.png", "animals/Cat.png", "anim
 
 shuffle(animal_array)
 
-def placeAnimals():
+def place_animals():
   
   global animal_array 
   
